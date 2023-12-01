@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DungeonLibrary
 {
-    public class Player
+    public class Character
     {
         private int _life;
         private string _name;
@@ -45,7 +45,7 @@ namespace DungeonLibrary
             }
         }
 
-        public Player(string name, int maxLife, int block, int _hitChance)
+        public Character(string name, int maxLife, int block, int _hitChance)
         {
             Name = name;
             MaxLife = maxLife;
